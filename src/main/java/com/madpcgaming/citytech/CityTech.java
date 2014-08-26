@@ -3,8 +3,12 @@ package com.madpcgaming.citytech;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.madpcgaming.citytech.client.gui.GuiHandler;
 import com.madpcgaming.citytech.common.CommonProxy;
-import com.madpcgaming.citytech.config.ConfigHandler;
+import com.madpcgaming.citytech.common.config.ConfigHandler;
+import com.madpcgaming.citytech.common.network.PacketHandler;
+import com.madpcgaming.citytech.common.registry.ModBlocks;
+import com.madpcgaming.citytech.common.registry.ModItems;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;

@@ -1,4 +1,4 @@
-package com.madpcgaming.citytech.config;
+package com.madpcgaming.citytech.common.config;
 
 import java.io.File;
 
