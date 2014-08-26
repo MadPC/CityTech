@@ -4,6 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.madpcgaming.citytech.common.CommonProxy;
+import com.madpcgaming.citytech.config.ConfigHandler;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -31,7 +32,6 @@ public class CityTech
 	public static ModItems itemRegistry = ModItems.instance;
 	public static ModBlocks blockRegistry = ModBlocks.instance;
 	
-	public static CreativeTabs tabCT = Utils.ctTab;
 	
 	@EventHandler
 	public static void preInit(FMLPreInitializationEvent event)
